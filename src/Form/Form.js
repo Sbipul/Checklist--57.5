@@ -151,7 +151,7 @@ const Form = () => {
                         />
                         <CardContent>
                         <Typography gutterBottom variant="h5" component="div">
-                            Please {isregistered ? 'Log in' : 'Sign up'} first
+                            Please {isregistered ? 'Log in' : 'Sign up'} First
                         </Typography>
                         {
                             !isregistered && <TextField onBlur={nameUse} className="mb-3 w-100" id="standard-basic" label="Your Name" variant="standard" />
